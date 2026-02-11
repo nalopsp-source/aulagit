@@ -26,12 +26,49 @@
     <p id="mensagem"></p>
      
     <script src="../scripts/index.js"></script>
+ <label>Senha:</label>
+<input type="password" id="senha">
+<br>
+<label>Confirme a Senha:</label>
+<input type="password" id="senha2">
+<br><br>
 
+<label>Você é estudante?</label>
+<input type="checkbox" id="estudante">
+<br><br>
 
 
 
 
 
    
+</body>
+</html>
+
+    
+    <title>Meus Desafios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="secao-desafio-1">
+        <h2>Desafio 1 - Validação de Senha</h2>
+        
+        <form id="formDesafio1">
+            <div class="campo">
+                <label for="senha">Digite a Senha:</label>
+                <input type="password" id="senha" placeholder="Mínimo 8 caracteres" required>
+            </div>
+
+            <div class="campo">
+                <label for="senha2">Confirme a Senha:</label>
+                <input type="password" id="senha2" placeholder="Repita a senha" required>
+            </div>
+
+            <button type="submit">Validar Inscrição</button>
+            <p id="feedback1"></p>
+        </form>
+    </section>
+    <script src="index.js"></script>
 </body>
 </html>
